@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyNotepadApp</class>
+ <widget class="QMainWindow" name="MyNotepadApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyNotepadApp</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/ImageResource/notepad_37173.jpg</normaloff>:/ImageResource/notepad_37173.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>601</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAbout_Me">
+    <property name="title">
+     <string>About Me</string>
+    </property>
+    <addaction name="actionView_My_Resume"/>
+   </widget>
+   <addaction name="menuAbout_Me"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionBold"/>
+   <addaction name="actionItalic"/>
+   <addaction name="actionUnderLine"/>
+   <addaction name="actionSubScript"/>
+   <addaction name="actionSuperScript"/>
+  </widget>
+  <action name="actionBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/ImageResource/bold.png</normaloff>
+     <normalon>:/ImageResource/bold-1.png</normalon>:/ImageResource/bold.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/ImageResource/italic-1.png</normaloff>
+     <normalon>:/ImageResource/italic-11.png</normalon>:/ImageResource/italic-1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </action>
+  <action name="actionUnderLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/ImageResource/u-1.png</normaloff>
+     <normalon>:/ImageResource/u-11.png</normalon>:/ImageResource/u-1.png</iconset>
+   </property>
+   <property name="text">
+    <string>UnderLine</string>
+   </property>
+  </action>
+  <action name="actionView_My_Resume">
+   <property name="text">
+    <string>View My Resume</string>
+   </property>
+  </action>
+  <action name="actionSubScript">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/ImageResource/subscript.png</normaloff>
+     <normalon>:/ImageResource/subscripttrigger.png</normalon>:/ImageResource/subscript.png</iconset>
+   </property>
+   <property name="text">
+    <string>SubScript</string>
+   </property>
+  </action>
+  <action name="actionSuperScript">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/ImageResource/superscript.png</normaloff>
+     <normalon>:/ImageResource/superscripttrigger.png</normalon>:/ImageResource/superscript.png</iconset>
+   </property>
+   <property name="text">
+    <string>SuperScript</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

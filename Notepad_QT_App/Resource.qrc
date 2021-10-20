@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ImageResource/0001.jpg</file>
+        <file>ImageResource/bold-1.png</file>
+        <file>ImageResource/bold.png</file>
+        <file>ImageResource/italic-1.png</file>
+        <file>ImageResource/subscript.png</file>
+        <file>ImageResource/subscripttrigger.png</file>
+        <file>ImageResource/superscript.png</file>
+        <file>ImageResource/superscripttrigger.png</file>
+        <file>ImageResource/u-1.png</file>
+        <file>ImageResource/u-11.png</file>
+        <file>ImageResource/italic-11.png</file>
+        <file>ImageResource/notepad_37173.jpg</file>
+        <file>ImageResource/resume.png</file>
+    </qresource>
+</RCC>
