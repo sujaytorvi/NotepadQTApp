@@ -15,4 +15,12 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
  **This exe file is compliled using windeployqt.exe and hence will not throw any error** 
  
 ### 2. What has been done:
-=> 
+=> The notepad required to have 4 features namely Bold, Subscript & Superscript feature along with resume opening on a dialog box when about me menu is clicked
+
+=> I have implemented additional 2 features: Italic and Underline 
+
+**The code is tested for 70% of edge cases and functions should work fine for most of the times**
+
+**However there may be small amount of cases where the functionality may not work as intended**
+
+
