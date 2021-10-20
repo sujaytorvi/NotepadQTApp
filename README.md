@@ -10,7 +10,9 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
 
 => To run the app you can build the project and press control + R to run the app. 
 
- **Alternatively you can open the debug folder and run the Notepad_QT_App.exe present there**
+ **Alternatively you can open the win-release folder and run the Notepad_QT_App.exe present there**
+ 
+ **If on Linux system open the linux-release folder and run app through terminal ./Notepad_QT_App**
  
  **This exe file is compliled using windeployqt.exe and hence will not throw any error** 
  
