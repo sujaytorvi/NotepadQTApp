@@ -30,6 +30,8 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
 => While making functionality I saw there were a few edge cases where the functionality could break and solved the obvious ones, however there may be some hidden edge cases and bugs where functionality may not always work.
 *Perform Continuous Testing and Continuous Improvement to unveil new edge cases and bugs and continuously fix them*
 
+=> I did the whole assignment, however later on I came to know it has to be done on linux system so installing virual ubuntu on the system as well as transitioning the project took a bit while and caused some hassle here and there.
+
 ### 4. Features Implemented:
 
 #### i.   Bold Function: Makes selected text bold and also new characters that are entered. 
