@@ -116,10 +116,15 @@ void MyNotepadApp::on_textEdit_selectionChanged()
 {
     // whenever a text is selected below code checks
     // if any of them are bold, underline or italic and set their switch on
-    QTextCursor cursor = ui->textEdit->textCursor();
-    cursor.charFormat().font().bold() ? ui->actionBold->setChecked(true) : ui->actionBold->setChecked(false);
-    cursor.charFormat().font().underline() ? ui->actionUnderLine->setChecked(true) : ui->actionUnderLine->setChecked(false);
-    cursor.charFormat().font().italic() ? ui->actionItalic->setChecked(true) : ui->actionItalic->setChecked(false);
+
+
+// <== Code is faulty ==>
+
+//    QTextCursor cursor = ui->textEdit->textCursor();
+//    cursor.charFormat().font().bold() ? ui->actionBold->setChecked(true) : ui->actionBold->setChecked(false);
+//    cursor.charFormat().font().underline() ? ui->actionUnderLine->setChecked(true) : ui->actionUnderLine->setChecked(false);
+//    cursor.charFormat().font().italic() ? ui->actionItalic->setChecked(true) : ui->actionItalic->setChecked(false);
+
 
 }
 
