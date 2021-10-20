@@ -14,7 +14,6 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
  
  **If on Linux system open the linux-release folder and run app through terminal ./Notepad_QT_App**
  
- **This exe file is compliled using windeployqt.exe and hence will not throw any error** 
  
 ### 2. What has been done:
 => The notepad required to have 4 features namely Bold, Subscript & Superscript feature along with resume opening on a dialog box when about me menu is clicked
