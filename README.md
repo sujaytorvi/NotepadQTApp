@@ -10,9 +10,7 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
 
 => To run the app you can build the project and press control + R to run the app. 
 
- **Alternatively you can open the win-release folder and run the Notepad_QT_App.exe present there**
- 
- **If on Linux system open the linux-release folder and run app through terminal ./Notepad_QT_App**
+ **Alternatively open the linux-release folder and run app through terminal ./Notepad_QT_App**
  
  
 ### 2. What has been done:
@@ -42,6 +40,5 @@ Sample Notepad App made in QT Creator with few functions such as Bold. Italic, U
 #### v.   Superscript Function: Makes selected text superscripted and also new characters that are entered. 
 #### vi.  Shows Resume when About me is clicked 
 
-## At the time of creating this git repo the code is being tested and new fixes are pushed to the repo 
 
 
